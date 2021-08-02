@@ -24,7 +24,7 @@ hi {}, my name is {}!
 `if you have any questions about how to use me please give me /help... 
 I am a pever full bot for group management 😉 and i am totally free for you. 😊`
 
-For more commands click /help...
+For more commands click /help...😝
 
 
 """
@@ -44,7 +44,8 @@ And the following:
 
 DONATE_STRING = """Hy 😊
 Nice to here that you want to donate. 😉
-Please donate to my owner. He take several efforts to make a bot like me. 😜"""
+Please donate to my owner. He take several efforts to make a bot like me. 😜
+ [Donate To My Owner](https://t.me/jinn_007)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
