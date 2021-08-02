@@ -443,29 +443,4 @@ def main():
 
 if __name__ == '__main__':
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
-    main()
-
-                   text=Script.START_MSG.format(message.from_user.mention),
-        disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("Updates", url="https://t.me/noobbots")
-                   InlineKeyboardButton("Donate ❣️", url="https://t.me/jinn_007")
-                ]
-                   InlineKeyboardButton("My dev", url="https://t.me/jinn_007")
-            ]
-        ),
-        reply_to_message_id=message.message_id
-    )
-    if Config.SAVE_USER == "yes":
-        try:
-            await add_user(
-                str(message.from_user.id),
-                str(message.from_user.username),
-                str(message.from_user.first_name + " " + (message.from_user.last_name or "")),
-                str(message.from_user.dc_id)
-            )
-        except:
-            pass
-
+    main()             
